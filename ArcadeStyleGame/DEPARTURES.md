@@ -1,0 +1,3 @@
+# Departures
+
+I departed from the command pattern when it came to the CPUMoving state, as it is not included when the mouseClick is running. The reason for this is CPUMoving is not something that the player is responsible for (not dependant on mouse clicks), but rather something that keeps the game going. Because of this, I did not include this in the command pattern as it is not dependant on the other states but rather runs when all the necessary states have completed running.
